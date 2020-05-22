@@ -16,5 +16,5 @@ COPY . app.py /app/
 
 ## Step 5:
 # Run app.py at container launch
-RUN pip install --upgrade pip &&\
+RUN pip install --upgrade pip==20.1.1 &&\
     pip install --trusted-host pypi.python.org -r requirements.txt
