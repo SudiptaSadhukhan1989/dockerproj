@@ -1,2 +1,2 @@
-click
-pylint
+pylint==2.5.2
+Click==7.0
